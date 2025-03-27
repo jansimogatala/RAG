@@ -28,8 +28,8 @@ Training large models from scratch is expensive and time-consuming.
 RAG improves model performance without retraining, by integrating external retrieval.
 
 ### How RAG Works?
-Retrieval: The model first searches for relevant information from external sources (e.g., a knowledge base, database, or document repository) based on the user’s query.
-Augmentation: The retrieved information is combined with the query and fed into the LLM.
-Generation: The LLM generates a response using both the retrieved data and its pre-trained knowledge.
+1. Retrieval: The model first searches for relevant information from external sources (e.g., a knowledge base, database, or document repository) based on the user’s query.
+2. Augmentation: The retrieved information is combined with the query and fed into the LLM.
+3. Generation: The LLM generates a response using both the retrieved data and its pre-trained knowledge.
 
 
